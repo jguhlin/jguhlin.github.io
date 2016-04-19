@@ -124,14 +124,15 @@ $(document).ready(function () {
 <h3>My PBS Script. Feel free to use it</h3>
 <p>But change the PBS -o and PBS -e lines or I will not be able to help you. Do not forget the PBS Header from one of your previous scripts (that worked)!</p>
 <blockquote>
-<p>cd /home/bioltrm1/guhli007 module load qiime/1.8.0</p>
-<p>beta_diversity_through_plots.py<br />
--i /home/bioltrm1/shared/otu_rare2000.biom<br />
--o beta_diversity<br />
--t /home/bioltrm1/shared/97_otus.tree<br />
--m /home/bioltrm1/shared/HMP_5BS_metadata.txt<br />
--p /home/bioltrm1/shared/parameters.txt<br />
--O 6<br />
+<p>cd /home/bioltrm1/guhli007<br />
+module load qiime/1.8.0</p>
+<p>beta_diversity_through_plots.py \<br />
+-i /home/bioltrm1/shared/otu_rare2000.biom \<br />
+-o beta_diversity \<br />
+-t /home/bioltrm1/shared/97_otus.tree \<br />
+-m /home/bioltrm1/shared/HMP_5BS_metadata.txt \<br />
+-p /home/bioltrm1/shared/parameters.txt \<br />
+-O 6 \<br />
 -a</p>
 </blockquote>
 </div>
